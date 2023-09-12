@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+    background: #282b32;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #282b32;
+    color: #fff;
+    padding: 10px 20px;
+}
+.MyName{
+    color: yellow;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+.detail{
+    padding-top: 10rem;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+/* CV button styles */
+.cv a {
+    background-color: #007bff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cv a:hover {
+    background-color: #0056b3;
+}
+.info{
+    margin: 7rem 7rem;
+}
+.a-container{
+    text-align: center;
+}
+.p-container{
+    padding-top: 3rem;
+}
+.h{
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.h:hover{
+    border-bottom: 1px solid yellow;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.social-icons a{
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+footer{
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 2rem;
+}
+.p{
+    padding: 2rem;
+
+}
+
+.button a{
+    padding: 1rem;
+    background: #323f4d;
+    color: white;
+    border-radius: 30px;
+}
+.detail{
+    margin-bottom: 2rem;
+}
+.m{
+    margin: 2rem;
+}
+.p-container{
+    text-align: center;
+}
+.c-container{
+    background-color: rgba(69, 68, 68, 0.4);
+    padding: 2rem;
+    text-align: center;
+}
+.c-container p a:hover{
+    border-bottom: 1px solid rgb(213, 151, 151);
+}
